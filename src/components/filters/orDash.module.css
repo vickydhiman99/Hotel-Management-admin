@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.filterGrid {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.titelitemGrid {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.5rem;
+}
+.filteritemGrid {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+.filterGrid .firstFormControl {
+  width: 100%;
+}

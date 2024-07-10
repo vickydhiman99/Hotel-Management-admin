@@ -1,0 +1,38 @@
+.orderContain {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 40vw;
+    gap: 5px;
+  }
+  .orderContain .SnapshotsBox {
+    border: 1px solid #4e4edca7;
+    padding: 0.5%;
+    height: 14vh;
+    width: 35%;
+    border-radius: 5%;
+    position: relative;
+  }
+  .SnapshotsGrid .imageContainer {
+    width: 90%;
+    height: 90%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+  }
+  .imageContainer .crossIcon{
+      position: absolute;
+      top: -5%;
+      right: -5%;
+      cursor: pointer;
+    }
+    .imageContainer .image {
+      width: 95%;
+      height: 95%;
+      object-fit: cover;
+      position: absolute;
+    }
